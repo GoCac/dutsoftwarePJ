@@ -9,31 +9,31 @@ $("#contact-submit").click(function(){
 	var deferToDistributionType = $("input[name='deferToDistributionType']:checked").val();
 	var introduction = $("#introduction").val();
 
-	if (name == null || name.length() == 0){
+	if (name == null || name.length == 0){
 		alert("姓名为空！");
 		return;
 	}
-	if (number == null || number.length() == 0){
+	if (number == null || number.length == 0){
 		alert("学号为空！");
 		return;
 	}
-	if (college == null || college.length() == 0){
+	if (college == null || college.length == 0){
 		alert("学院为空！");
 		return;
 	}
-	if (phone == null || phone.length() == 0){
+	if (phone == null || phone.length == 0){
 		alert("手机为空！");
 		return;
 	}
-	if (email == null || email.length() == 0){
+	if (email == null || email.length == 0){
 		alert("邮箱为空！");
 		return;
 	}
-	if (introduction == null || introduction.length() == 0){
+	if (introduction == null || introduction.length == 0){
 		alert("个人介绍为空！");
 		return;
 	}
-	if (introduction.length() > 200){
+	if (introduction.length > 200){
 		alert("个人介绍超过200字！");
 		return;
 	}
