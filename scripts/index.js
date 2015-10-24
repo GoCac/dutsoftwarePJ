@@ -5,7 +5,7 @@ $("#contact-submit").click(function(){
 			gender = 1;
 		}
 	var number = $("#number").val();
-	alert(name + number);
+	alert(name + gender + number);
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
