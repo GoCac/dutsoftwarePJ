@@ -1,6 +1,10 @@
 $("#contact-submit").click(function(){
-	var micao=$("#name").val();
-	alert(micao);
+	var name = $("#name").val();
+	var gender = 0;
+	if ($("#male").attr("checked") == checked){
+		gender = 0;
+	}
+	alert($("#male").attr("checked"));
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
