@@ -50,6 +50,12 @@ body {
 	font-size:13px;
 }
 
+#student h5 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:12px;
+}
+
 fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;

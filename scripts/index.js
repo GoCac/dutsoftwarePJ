@@ -9,27 +9,27 @@ $("#contact-submit").click(function(){
 	var deferToDistributionType = $("input[name='deferToDistributionType']:checked").val();
 	var introduction = $("#introduction").val();
 
-	if (name == null){
+	if (name == null || name.length() == 0){
 		alert("姓名为空！");
 		return;
 	}
-	if (number == null){
+	if (number == null || number.length() == 0){
 		alert("学号为空！");
 		return;
 	}
-	if (college == null){
+	if (college == null || college.length() == 0){
 		alert("学院为空！");
 		return;
 	}
-	if (phone == null){
+	if (phone == null || phone.length() == 0){
 		alert("手机为空！");
 		return;
 	}
-	if (email == null){
+	if (email == null || email.length() == 0){
 		alert("邮箱为空！");
 		return;
 	}
-	if (introduction == null){
+	if (introduction == null || introduction.length() == 0){
 		alert("个人介绍为空！");
 		return;
 	}
