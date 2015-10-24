@@ -38,8 +38,8 @@ $("#contact-submit").click(function(){
 		alert("个人介绍超过200字！");
 		return false;
 	}
-
-	alert("姓名：" + name + "    " + "性别(0男/1女)：" + gender + "    " + "学号：" + number + "    " + "学院：" + college + "    " + "手机：" + phone + "    " + "邮箱：" + email + "    " + "实验室(0,1,2,3)：" + labType + "    " + "是否接受调剂(0否/1是)：" + deferToDistributionType + "    " + "个人介绍：" + introduction);
+	alert("sss\naaa");
+	// alert("姓名：" + name + "    " + "性别(0男/1女)：" + gender + "    " + "学号：" + number + "    " + "学院：" + college + "    " + "手机：" + phone + "    " + "邮箱：" + email + "    " + "实验室(0,1,2,3)：" + labType + "    " + "是否接受调剂(0否/1是)：" + deferToDistributionType + "    " + "个人介绍：" + introduction);
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
