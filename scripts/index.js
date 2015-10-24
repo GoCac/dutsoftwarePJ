@@ -1,5 +1,6 @@
-$(#contact-submit).click(function(){
-				var micao=$(#name).attr("text");
+<script type="text/javascript">
+$("#contact-submit").click(function(){
+				var micao=$("#name").val();
 				alert(micao);
 				/*
 				$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
@@ -16,3 +17,4 @@ $(#contact-submit).click(function(){
 				// });
 			 //  });
 });
+</script>
