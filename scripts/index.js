@@ -1,7 +1,7 @@
 $("#contact-submit").click(function(){
 	var name = $("#name").val();
 	var gender = 0;
-		if ($("#female").checked == "checked"){
+		if ($("#female").checked == 'checked'){
 			gender = 1;
 		}
 	var number = $("#number").val();
