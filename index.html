@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>创新实验学院实验室报名系统</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="container">  
+  
+<form id="student" action="" method="post">
+    <h3>实验室报名</h3>
+    <h4>大连理工大学 创新实验学院</h4>
+	<fieldset>
+		<legend>个人信息</legend>
+		<ol>
+			<li>
+				<label for=name>姓名</label>
+				<input id=name name=name type="text" placeholder="请填写真实姓名" required autofocus>
+			</li>	
+			<li>
+				<fieldset>
+					<legend>性别</legend>
+					<ol>
+						<li>
+							<input id=male name=gender type=radio>
+							<label for=male>男</label>
+						</li>
+						<li>
+							<input id=female name=gender type=radio>
+							<label for=female>女</label>
+						</li>
+					</ol>
+				</fieldset>
+			</li>
+			<li>
+				<label for=number>学号</label>
+				<input id=number name=number type="text" placeholder="请填写9位学号" required autofocus>
+			</li>	
+			<li>
+				<label for=college>学院</label>
+				<input id=college name=college type="text" placeholder="请填写学院全程" required autofocus>
+			</li>	
+		</ol>
+	</fieldset>
+	<fieldset>
+		<legend>联系方式</legend>
+		<ol>
+			<li>
+				<label for=phone>手机号</label>
+				<input id=phone name=phone type="tel" placeholder="例：18600000000" required>
+			</li>
+			<li>
+				<label for=email>邮箱</label>
+				<input id=email name=email type="email" placeholder="example@domain.com" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<legend>报名意向</legend>
+		<ol>
+			<li>
+				<fieldset>
+					<legend>第一志愿</legend>
+					<ol>
+						<li>
+							<input id=labName name=labType type=radio>
+							<label for=mathLab>数学建模实践班</label>
+						</li>
+						<li>
+							<input id=labName name=labType type=radio>
+							<label for=electricLab>机电实践班</label>
+						</li>
+						<li>
+							<input id=labName name=labType type=radio>
+							<label for=softwareLab>软件工程实践班</label>
+						</li>
+						<li>
+							<input id=labName name=labType type=radio>
+							<label for=mediaLab>媒体技术实践班</label>
+						</li>
+					</ol>
+				</fieldset>
+			</li>
+			<li>
+				<fieldset>
+					<legend>是否服从调剂</legend>
+					<ol>
+						<li>
+							<input id=deferToDistribution name=deferToDistributionType type=radio>
+							<label for=deferToDistributionTypeYes>是</label>
+						</li>
+						<li>
+							<input id=deferToDistribution name=deferToDistributionType type=radio>
+							<label for=deferToDistributionTypeNo>否</label>
+						</li>
+					</ol>
+				</fieldset>
+			</li>
+			<li>
+				<label for=introduction>自我介绍</label>
+				<textarea id=introduction name=introduction rows=5 placeholder="简要介绍一下自己，不要超过200字" required></textarea>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">提交信息</button>
+	</fieldset>
+</form>
+
+</div>
+<div style="text-align:center;clear:both">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+</body>
+
+</html>
