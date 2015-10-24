@@ -11,6 +11,7 @@ $("#contact-submit").click(function(){
 
 	if (name == null || name.length == 0){
 		alert("姓名为空！");
+		$("#name").select();
 		return false;
 	}
 	if (number == null || number.length == 0){
