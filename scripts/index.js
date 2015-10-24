@@ -44,8 +44,7 @@ $("#contact-submit").click(function(){
 		$("#introduction").select();
 		return false;
 	}
-	alert("sss\r\naaa");
-	// alert("姓名：" + name + "    " + "性别(0男/1女)：" + gender + "    " + "学号：" + number + "    " + "学院：" + college + "    " + "手机：" + phone + "    " + "邮箱：" + email + "    " + "实验室(0,1,2,3)：" + labType + "    " + "是否接受调剂(0否/1是)：" + deferToDistributionType + "    " + "个人介绍：" + introduction);
+	alert("姓名：" + name + "\r\n" + "性别(0男/1女)：" + gender + "\r\n" + "学号：" + number + "\r\n" + "学院：" + college + "\r\n" + "手机：" + phone + "\r\n" + "邮箱：" + email + "\r\n" + "实验室(0,1,2,3)：" + labType + "\r\n" + "是否接受调剂(0否/1是)：" + deferToDistributionType + "\r\n" + "个人介绍：" + introduction);
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
