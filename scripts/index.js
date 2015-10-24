@@ -1,15 +1,14 @@
 $("#contact-submit").click(function(){
 	var name = $("#name").val();
-	var gender = 0;
-		if ($("#female").val() == 'checked'){
-			gender = 1;
-		}
+	var gender = $("input[name='gender']:checked").val();
 	var number = $("#number").val();
 	var college = $("#college").val();
 	var phone = $("#phone").val();
 	var email = $("#email").val();
+	var labType = $("input[name='labType']:checked").val();
+	var deferToDistributionType = $("input[name='deferToDistributionType']:checked").val();
 	var introduction = $("#introduction").val();
-	alert(name + gender + $("#female").val() + number + college + phone + email + introduction);
+	alert(name + gender + number + college + phone + email + labType + deferToDistributionType + introduction);
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
