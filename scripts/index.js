@@ -14,8 +14,7 @@ $("#contact-submit").click(function(){
 	obj=eval(data);
 	*/
 	// $.get("http://dutse.avosapps.com/student/update",{"name":name,"gender":gender,"number":number,"college":college,"phone":phone,"email":email,"labType":labType,"deferToDistributionType":deferToDistributionType,"introduction":introduction,},function(data,status){
-		// $.get("http://dutse.avosapps.com/student/info",{name:name,gender:gender,number:number,college:college,phone:phone,email:email,labType:labType,deferToDistributionType:deferToDistributionType,introduction:introduction,},function(data,status){
-		$.get("http://dutse.avosapps.com/student/info",{"dataType":"json"},function(data,status){
+		$.get("http://dutse.avosapps.com/student/info",{name:name,gender:gender,number:number,college:college,phone:phone,email:email,labType:labType,deferToDistributionType:deferToDistributionType,introduction:introduction,},function(data,status){
 		alert(data);
 		alert(status);
 		// obj=eval(data);
