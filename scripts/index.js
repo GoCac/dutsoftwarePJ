@@ -13,7 +13,8 @@ $("#contact-submit").click(function(){
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
 	*/
-	$.get("http://dutse.avosapps.com/student/update",{"name":name,"gender":gender,"number":number,"college":college,"phone":phone,"email":email,"labType":labType,"deferToDistributionType":deferToDistributionType,"introduction":introduction,},function(data,status){
+	// $.get("http://dutse.avosapps.com/student/update",{"name":name,"gender":gender,"number":number,"college":college,"phone":phone,"email":email,"labType":labType,"deferToDistributionType":deferToDistributionType,"introduction":introduction,},function(data,status){
+		$.get("http://dutse.avosapps.com/student/update",{name:name,gender:gender,number:number,college:college,phone:phone,email:email,labType:labType,deferToDistributionType:deferToDistributionType,introduction:introduction,},function(data,status){
 		// obj=eval(data);
 		// deleteOverlays();
 		// $(obj).each(function(i){
