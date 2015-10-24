@@ -1,5 +1,5 @@
 $("#contact-submit").click(function(){
-				var micao=$("#text").attr("value");
+				var micao=$("#name").attr("text");
 				alert(micao);
 				/*
 				$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
