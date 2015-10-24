@@ -1,4 +1,3 @@
-<script type="text/javascript">
 $("#contact-submit").click(function(){
 				var micao=$("#name").val();
 				alert(micao);
@@ -17,4 +16,3 @@ $("#contact-submit").click(function(){
 				// });
 			 //  });
 });
-</script>
