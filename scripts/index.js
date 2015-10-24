@@ -38,7 +38,7 @@ $("#contact-submit").click(function(){
 	// 	return;
 	// }
 
-	alert("姓名：" + name + "\n" + "性别(0男/1女)：" + gender + "\n" + "学号：" + number + "\n" + "学院：" + college + "\n" + "手机：" + phone + "\n" + "邮箱：" + email + "\n" + "实验室(0,1,2,3)：" + labType + "\n" + "是否接受调剂(0否/1是)：" + deferToDistributionType + "\n" + "个人介绍：" + introduction + "\n" );
+	// alert("姓名：" + name + "\n" + "性别(0男/1女)：" + gender + "\n" + "学号：" + number + "\n" + "学院：" + college + "\n" + "手机：" + phone + "\n" + "邮箱：" + email + "\n" + "实验室(0,1,2,3)：" + labType + "\n" + "是否接受调剂(0否/1是)：" + deferToDistributionType + "\n" + "个人介绍：" + introduction + "\n" );
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
