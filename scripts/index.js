@@ -1,10 +1,11 @@
 $("#contact-submit").click(function(){
 	var name = $("#name").val();
 	var gender = 0;
-	if ($("#female").checked == "checked"){
-		gender = 1;
-	}
-	alert($("#male").checked);
+		if ($("#female").checked == "checked"){
+			gender = 1;
+		}
+	var number = $("#number").val();
+	alert($(gender);
 	/*
 	$.get("index.php/positions/data",{"dataType":"json",icao:micao},function(data,status){
 	obj=eval(data);
